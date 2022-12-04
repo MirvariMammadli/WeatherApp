@@ -15,15 +15,33 @@ button{
     border: none;
     border-radius: 25%;
     margin: 0.5em;
-    height: 2.5em;
-    width:2.5em;
+    height: 3.5em;
+    width:3.5em;
+    color:black;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+button:hover{
+    background: #b0c2ca;
+}
+
+input.searchbar{
+    border:none;
+    outline:none;
+    border-radius: 12px;
+    padding: 0.8em;
+    background-color: aliceblue;
+    color: black;
+    font-family: inherit;
+    font-size: 120%;
 }
 
 .search{
     display: flex;
     justify-content: center;
     align-items: center;
-  
+    outline: none;
 
 }
 
