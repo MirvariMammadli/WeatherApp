@@ -35,6 +35,7 @@ input.searchbar{
     color: black;
     font-family: inherit;
     font-size: 120%;
+    width: 80%;
 }
 
 .search{
